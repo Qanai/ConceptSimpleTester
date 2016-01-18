@@ -48,9 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassInheritance\ClassInheritance.csproj">
-      <Project>{06c8129a-821c-4313-96e3-576821d4815e}</Project>
-      <Name>ClassInheritance</Name>
+    <ProjectReference Include="..\ConsoleManager\ConsoleManager.csproj">
+      <Project>{b4535967-aaf6-4bb1-80b9-5c9772b99738}</Project>
+      <Name>ConsoleManager</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

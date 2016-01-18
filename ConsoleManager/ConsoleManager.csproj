@@ -42,6 +42,12 @@
     <Compile Include="Manager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassInheritance\ClassInheritance.csproj">
+      <Project>{06c8129a-821c-4313-96e3-576821d4815e}</Project>
+      <Name>ClassInheritance</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
