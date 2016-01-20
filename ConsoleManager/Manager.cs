@@ -45,12 +45,17 @@ namespace ConsoleManager
             switch (startCoice)
             {
                 case "1":
-                    Console.WriteLine("IN");
-                    Console.ReadLine();
+                    ShowInheritance();
                     break;
                 default:
                     break;
             }
+        }
+
+        private static void ShowInheritance()
+        {
+            Console.WriteLine("IN");
+            Console.ReadLine();
         }
 
         private string DisplayMenu(List<string> menuData)
